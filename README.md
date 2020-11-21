@@ -1,8 +1,8 @@
 # 코딩 테스트 및 인터뷰를 위한 알고리즘 노트
-* Referencebook: 이것이 취업을 위한 코딩테스트다  <a ref='http://www.yes24.com/Product/Goods/91433923'>link</a>
+* Referencebook: 이것이 취업을 위한 코딩테스트다  [link](http://www.yes24.com/Product/Goods/91433923)
 
-* 동영상 강의 <a ref='https://www.youtube.com/watch?v=m-9pAwq1o3w'>link</a>
-* Github <a ref='https://github.com/ndb796'>link</a>
+* 동영상 강의 [link](https://www.youtube.com/watch?v=m-9pAwq1o3w)
+* Github [link](https://github.com/ndb796)
 
 저자는 어떤 생각으로 책을 지필했는지, 앞으로 어떻게 공부하면 좋을지, 내가 얻어가야할 지식이 무엇인지 하나씩 천천히 살펴보도록 하자 -20.11.21.Sat pm11:30-
 
@@ -114,5 +114,4 @@
     * Appendix D. 알고리즘 유형별 기출문제 풀이
 
 ## 책 소개
-* <a ref='https://blog.naver.com/ndb796'>안경잡이 개발자 블로그 참고</a>
-"""
+[안경잡이 개발자 블로그](https://blog.naver.com/ndb796)
