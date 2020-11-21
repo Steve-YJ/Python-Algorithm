@@ -14,7 +14,7 @@
 ✈️ ::Start::
 > from. 20.11.21 sat am11:30-
 <br>
-책의 활용법 및 학습 순서는 [여기][https://github.com/Steve-YJ/Python-Algorithm/blob/main/00_Preface.ipynb] 에서 확인할 수 있다<br>
+책의 활용법 및 학습 순서는 <a href='https://github.com/Steve-YJ/Python-Algorithm/blob/main/00_Preface.ipynb'>여기</a> 에서 확인할 수 있다<br>
 
 🔰 목차 🔰
 * Part1. 코딩 테스트, 무엇을 어떻게 준비할까?<br>
