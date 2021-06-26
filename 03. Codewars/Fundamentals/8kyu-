@@ -1,0 +1,5 @@
+def mul_2(a):
+    return 2 * a 
+
+def maps(a):
+    return list(map(mul_2, a))
