@@ -1,13 +1,14 @@
 """
-# Time Complexity... 21.07.04.Sun. pm 6:35
+# Solved it! -21.07.04.pm7:40-
 """
 
-def divisor(x):
-    return [i for i in range(1, x+1) if x%i ==0]
+def divisor_(x, y):
+    return x//y, x%y  # 몫과 나머지로 생각해보자
 
-
-def mygcd(x, y):    
-    div_x = divisor(x)
-    div_y = divisor(y)
-    
-    return max(set(div_x) & set(div_y))
+def mygcd(x, y):
+    while True:
+        prev_x, prev_y = x, y
+        tmp_x, tmp_y = divisor_(x, y)
+        x, y = prev_y, tmp_y
+        if tmp_y == 0:
+            return prev_y
