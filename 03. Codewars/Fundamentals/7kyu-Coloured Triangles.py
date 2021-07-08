@@ -1,0 +1,26 @@
+# 2017 British Informatics Olympiad
+"""
+First trial. 
+Passed, but... not satisfied... 21.07.08.Thur.
+"""
+def triangle(row):
+    # Your code here:
+    if len(row) == 1:
+        return row[0]
+    
+    lst = []
+    
+    for i in range(len(row)-1):
+        if row[i] == row[i+1]:
+            lst.append(row[i])
+        else:
+            if row[i] == 'G' and row[i+1] == 'G':
+                lst.append('G')
+            elif (row[i] == 'B' and row[i+1] == 'G') or (row[i] == 'G' and row[i+1] == 'B'):
+                lst.append('R')
+            elif (row[i] == 'R' and row[i+1] == 'G') or (row[i] == 'G' and row[i+1] == 'R'):
+                lst.append('B')
+            elif (row[i] == 'B' and row[i+1] == 'R') or (row[i] == 'R' and row[i+1] == 'B'):
+                lst.append('G')
+                
+    return triangle(lst)
