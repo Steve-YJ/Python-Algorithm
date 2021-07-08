@@ -24,3 +24,34 @@ def triangle(row):
                 lst.append('G')
                 
     return triangle(lst)
+
+
+
+"""
+Second Trial.
+
+"""
+def triangle(row):
+    print("row: {}".format(row))
+    # Your code here:
+    if len(row) == 1:
+        return row[0]
+    
+    dic = {
+          'GG': 'G',
+          'BB': 'B',
+          'RR': 'R',
+          'BG': 'R',
+          'GB': 'R',
+          'RG': 'B',
+          'GR': 'B',
+          'BR': 'G',
+          'RB': 'G'}
+    
+    lst = []  # make list to make new row
+    
+    for i in range(0, len(row)-1):
+        tmp = "".join(row[i:i+2])
+        lst.append(dic[tmp])
+    
+    return triangle(lst)
