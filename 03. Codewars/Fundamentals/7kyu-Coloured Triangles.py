@@ -55,3 +55,19 @@ def triangle(row):
         lst.append(dic[tmp])
     
     return triangle(lst)
+
+
+"""
+Third, Interesting!
+
+
+"""
+
+def triangle(row):  
+    # Your code here:
+    if len(row) == 1:
+        return row  # return result 
+
+    row = "".join(row[i] if row[i] == row[i+1] else list(set("RGB")-set(row[i:i+2]))[0] for i in range(0, len(row)-1))  # if row[i] == row[i+1], join(row[i]) else, set("RGB")-set(row[i:i+2])
+
+    return triangle(row)  # recursion
