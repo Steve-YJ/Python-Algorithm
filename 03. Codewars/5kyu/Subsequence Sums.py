@@ -11,7 +11,4 @@ def subsequence_sums(arr, s):
             if sum(arr[j:j+i]) == s:
                 count += 1
                 
-    return count
-            
-        
-        
+    return count     
