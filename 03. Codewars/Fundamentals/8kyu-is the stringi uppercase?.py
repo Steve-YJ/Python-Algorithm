@@ -1,10 +1,7 @@
-# Second Trial, Refactoring
-def is_uppercase(inp):    
-    for e in "".join(inp.split()):
-        if e == e.upper():  # if e in upper then continue
-            continue
-        elif e == e.lower():  # if e in lower then return False
-            print(f"{e} is lower")
-            return False
+def is_uppercase(inp):
+    print(f"inp: {inp}")
+    print(f"inp.upper(): {inp.upper()}")
+    print(f"inp==inp.upper(): {inp==inp.upper()}")  # if inp chars and inp.upper() chars are same, it will return True
+                                                    # because return True as the Unicode of all the characters are equal - from Geeks for Geeks
     
-    return True
+    return inp==inp.upper()
