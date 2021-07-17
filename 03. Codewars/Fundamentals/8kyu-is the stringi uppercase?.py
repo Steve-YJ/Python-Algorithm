@@ -1,12 +1,9 @@
-# First trial
-def is_uppercase(inp):
-    letters = "abcdefghijklmnopqrstuvwxyz"  # to check if element in inp is letter or not
-    lowers = "".join(e for e in inp.lower().split())  # to remove space
-    
-    for e in inp:
-        if e not in letters:  # if e is not in letter then continue
+# Second Trial, Refactoring
+def is_uppercase(inp):    
+    for e in "".join(inp.split()):
+        if e == e.upper():  # if e in upper then continue
             continue
-        elif e in lowers:  # if e in lower then return False
+        elif e == e.lower():  # if e in lower then return False
             print(f"{e} is lower")
             return False
     
