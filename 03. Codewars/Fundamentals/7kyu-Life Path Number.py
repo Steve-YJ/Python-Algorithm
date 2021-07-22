@@ -1,12 +1,9 @@
 def recursion(string):
-    while True:
-        if int(string)>=10:
-            string = str(sum([int(s) for s in string]))
-        elif int(string)<10:
-            return string
+    string = sum([int(s) for s in str(string)])
+    if string>=10:
+        return recursion(string)
+    else:
+        return string
 
 def life_path_number(birthdate):
-    # print(birthdate.split("-"))
-    result = sum([int(recursion(b)) for b in birthdate.split("-")])
-    
-    return int(recursion(str(result)))
+    return recursion(sum([recursion(b) for b in birthdate.split("-")]))
