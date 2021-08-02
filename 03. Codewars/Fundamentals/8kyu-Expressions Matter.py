@@ -1,12 +1,9 @@
-"""Question.
-    is this really good?
-"""
-
 def expression_matter(a, b, c):
-    cases = []
-    cases.append(a+b+c)
-    cases.append(a*b*c)
-    cases.append((a+b)*c)
-    cases.append(a+(b*c))
-    cases.append(a*(b+c))
-    return max(cases)# highest achievable result
+    case = []
+    case.append(a*b*c)
+    case.append(a+b+c)
+    case.append(a*(b+c))
+#     case.append(a+(b*c))  # because a*(b+c) >= a+(b*c)
+    case.append((a+b)*c)
+#     case.append((a*b)+c)  # because (a+b)*c >= (a*b)+c
+    return max(case)  # So, this is highest achievable result! :)
