@@ -1,13 +1,24 @@
-class Solution:
-    def isPalindrome(self, string: str) -> bool:
-        
-#         strings = ""
-#         for s in string:
-#             if s.isalnum():
-#                 strings += s.lower()
-                
+# My Solution
+# class Solution:
+#     def isPalindrome(self, string: str) -> bool:  
+#         strings = "".join(s.lower() for s in string if s.isalnum()) 
 #         return strings==strings[::-1]
     
-        strings = "".join(s.lower() for s in string if s.isalnum())
+    
+# Python Interview - Using Stack
+import collections
+
+class Solution:
+    def isPalindrome(self, string: str) -> bool:
+        strings: Deque = collections.deque()
+        # strings = []
         
-        return strings==strings[::-1]
+        for char in string:
+            if char.isalnum():
+                strings.append(char.lower())
+        
+        while len(strings)>1:
+            if strings.popleft() != strings.pop():
+                return False
+            
+        return True
