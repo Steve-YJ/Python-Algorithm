@@ -10,4 +10,4 @@
 04. Python Algorithm Interview: deep dive into Python and Python algorithm [GitHub link](https://github.com/Steve-YJ/Python-Algorithm/tree/main/04.%20Python%20Algorithm%20Interview)
 
 ## Alogorithm Everyday
-* [O] Codewars - Python, SQL Fundamentals
+* [x] Codewars - Python, SQL Fundamentals
