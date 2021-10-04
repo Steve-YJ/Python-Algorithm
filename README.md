@@ -1,4 +1,4 @@
-# 코딩 테스트 및 인터뷰를 위한 알고리즘 노트
+l# 코딩 테스트 및 인터뷰를 위한 알고리즘 노트
 ##  Overview
 >Build solid fundamentals and develop problem-solving skills<br>
 >Always thinking about solving a problem and trying and trying again to solve the problem until the end<br>
