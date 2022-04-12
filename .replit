@@ -1,7 +1,9 @@
-n = input()
-
-num_star = 1
-num_empty = n - num_star
-
+n = int(input())
+scores = input().split()
+scores = [int(score) for score in scores] 
+result = [0] * n
+    
 for i in range(n):
-    print(("" * num_empty) + ("*" * num_start))
+    result[i] = scores[i] / max(scores) * 100
+
+print(sum(result) / n)
