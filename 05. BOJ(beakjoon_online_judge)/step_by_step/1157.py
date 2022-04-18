@@ -1,16 +1,33 @@
-"""got runtime error!! -2022.04.12"""
+import sys
 
-from collections import Counter
+# e.g. Mississipi
+# string = str(input()).lower()
+string = str(sys.stdin.readline()).lower()
 
-# convert input to lower case
-string = str(input()).lower()
+# make dictionary
+dic = {}
+value_key = {}
 
-# using Counter() class
-counter = Counter(string)
-# you can find most freqeunt words
-most_common = counter.most_common()
+# fill the dictionary
+for char in string:
+    if char not in dic:
+        dic[char] = 1
+    else:
+        dic[char] += 1
 
-if most_common[0][1] == most_common[1][1]:
+# set the most 
+most = 0
+
+# find most values in the dictionary
+for key in dic.keys():
+    if dic[key] == most:
+        most = int(999999)
+        break
+    elif dic[key] > most:
+        most = dic[key]
+        value_key[most] = key
+
+if most == int(999999):
     print("?")
 else:
-    print(most_common[0][0].upper())  # print output as upper case
+    print(value_key[most].upper())
