@@ -1,4 +1,4 @@
-l# 코딩 테스트 및 인터뷰를 위한 알고리즘 노트
+# 코딩 테스트 및 인터뷰를 위한 알고리즘 노트
 ##  Overview
 >Build solid fundamentals and develop problem-solving skills<br>
 >Always thinking about solving a problem and trying and trying again to solve the problem until the end<br>
@@ -33,3 +33,9 @@ You can see [My Profile](https://www.codewars.com/users/Steve-Lee)
 > After codewar, I thought I needed change<br>
 > It mean that I want to solve more difficult problems<br>
 > That's why I started LeetCode.
+
+
+## 3. BOJ (BaekJoon Online Judge)
+> Just Started BOJ for Online Coding Test
+> Solved almost 100 problems and ranked silver03 (2022.05.18)
+> After soling 100 algorithm problems, I studing the theory again
