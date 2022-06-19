@@ -27,7 +27,7 @@
 
 You can see [My Profile](https://www.codewars.com/users/Steve-Lee)
 
-<img src='https://www.codewars.com/users/Steve-Lee/badges/large'>badge</img>
+<img src='https://www.codewars.com/users/Steve-Lee/badges/large'>Badge</img>
 
 ## 2. LeetCode
 > After codewar, I thought I needed change<br>
@@ -36,6 +36,11 @@ You can see [My Profile](https://www.codewars.com/users/Steve-Lee)
 
 
 ## 3. BOJ (BaekJoon Online Judge)
-> Just Started BOJ for Online Coding Test
-> Solved almost 100 problems and ranked silver03 (2022.05.18)
+> Just Started BOJ for Online Coding Test<br>
+> Solved almost 100 problems and ranked silver03 (2022.05.18)<br>
 > After soling 100 algorithm problems, I studing the theory again
+> 
+You can see [My Profile](https://www.acmicpc.net/user/leeyj0511)
+
+<img src='https://d2gd6pc034wcta.cloudfront.net/tier/8.svg' width=20>[BOJ-leeyj0511](https://www.acmicpc.net/user/leeyj0511)</img>
+
